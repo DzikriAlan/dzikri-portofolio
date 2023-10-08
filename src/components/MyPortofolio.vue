@@ -71,7 +71,7 @@
               </v-card>
             </template>
           </v-dialog>
-          <a v-if="item.tab === 'tab-2'" :href="item.link" target="_blank">
+          <a v-if="item.tab === 'tab-2'" :href="item.link" target="_blank" class="link-visit">
             <v-btn text="Zoom In" class="zoom-in-visit" variant="outlined">Visit</v-btn>
           </a>
         </v-card-item>
@@ -248,6 +248,10 @@
       margin-bottom: 10px;
       border: 1px solid #e8ebf0;
       color: black;
+      text-decoration: none;
+    }
+    .link-visit{
+      text-decoration: none;
     }
   @media(min-width: 691px){
     .window-portofolio{
