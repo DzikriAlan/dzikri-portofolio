@@ -23,6 +23,6 @@
     font-weight: 900;
     text-decoration: none;
     color: #5599d6;
-    letter-spacing: -1px;
+    letter-spacing: 0.1px;
   }
 </style>

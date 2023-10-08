@@ -6,17 +6,17 @@
           <v-sheet>
             <SelfIntroduce />
           </v-sheet>
-          <div class="br"></div>
         </v-col>
       </v-row>
+      <div class="br"></div>
       <v-row class="row-bang">
         <v-col class="col-bang">
           <v-sheet>
             <MyExperience />
           </v-sheet>
-          <div class="br"></div>
         </v-col>
       </v-row>
+      <div class="br"></div>
       <v-row class="row-bang">
         <v-col class="col-bang">
           <v-sheet>
@@ -30,7 +30,6 @@
           <v-sheet>
             <MySkill />
           </v-sheet>
-          <div class="br"></div>
         </v-col>
       </v-row>
       <div class="br"></div>
@@ -73,6 +72,7 @@
     background-color: #e8ebf0;
     height: 1px;
     width: 100%;
+    margin-bottom: 32px;
   }
 
   @media(min-width: 0px) and (max-width: 690px){

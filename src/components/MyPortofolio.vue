@@ -72,7 +72,7 @@
             </template>
           </v-dialog>
           <a v-if="item.tab === 'tab-2'" :href="item.link" target="_blank">
-            <v-btn text="Zoom In" class="zoom-in" variant="outlined">Visit</v-btn>
+            <v-btn text="Zoom In" class="zoom-in-visit" variant="outlined">Visit</v-btn>
           </a>
         </v-card-item>
       </v-card>
@@ -132,7 +132,7 @@
             {
               tab: 'tab-1',
               nama: 'LSP System',
-              kategori: 'Project Management',
+              kategori: 'Ujian Online',
               description: [
                 {
                   name: laravel,
@@ -197,17 +197,17 @@
 </script>
 
 <style scoped>
-  .portofolio{
-    text-align: center;
-  }
-  .window-portofolio{
-    padding-top: 30px;
-  }
-  .window-portofolio-item{
-    display: flex;
-    column-gap: 30px;
-    padding-bottom: 30px;
-  }
+    .portofolio{
+      text-align: center;
+    }
+    .window-portofolio{
+      padding-top: 30px;
+    }
+    .window-portofolio-item{
+      display: flex;
+      column-gap: 30px;
+      padding-bottom: 30px;
+    }
     .card{
       width: 50%;
       border: 1px solid #e8ebf0;
@@ -242,6 +242,12 @@
       margin-left: 10px;
       margin-bottom: 10px;
       padding: 5px;
+    }
+    .zoom-in-visit{
+      margin-left: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #e8ebf0;
+      color: black;
     }
   @media(min-width: 691px){
     .window-portofolio{

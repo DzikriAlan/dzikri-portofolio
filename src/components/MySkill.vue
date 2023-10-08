@@ -61,9 +61,6 @@
 </script>
 
 <style scoped>
-  .skills{
-    padding-top: 20px;
-  }
   .img-skills{
     padding: 20px 0px;
     display: flex;
