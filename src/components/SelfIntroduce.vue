@@ -3,7 +3,7 @@
     <div>
       <v-img
         cover
-        src="@/images/gue.png"
+        src="@/assets/images/gue.png"
         class="image-gue"
       ></v-img>
     </div>
