@@ -26,14 +26,14 @@
       >
         <v-card-item class="card-item">
           <inner-image-zoom
-            :src="item.images[0].src"
+            :src="`src/images/${item.images[0].src}`"
             :hideHint="true"
             zoomType="hover"
             class="inner-image-zoom"
           />
           <v-img
             cover
-            :src="item.images[0].src"
+            :src="`src/images/${item.images[0].src}`"
             class="img-portofolio"
           ></v-img>
           <div class="what">
@@ -42,7 +42,7 @@
             <div style="display: flex"> 
               <span style="padding-right: 5px;">Stack :</span>
               <span v-for="svg in item.description" :key="svg.name">
-                <img :src="svg.name" width="24" height="24" style="margin-left: 6px;" />
+                <img :src="`src/images/${svg.name}`" width="24" height="24" style="margin-left: 6px;" />
               </span>
             </div>
           </div>
@@ -59,8 +59,8 @@
                     class="carousel-item-dialog"
                   >
                     <InnerImageZoom
-                        :src="item.src"
-                        :zoomSrc="item.src"
+                        :src="`src/images/${item.src}`"
+                        :zoomSrc="`src/images/${item.src}`"
                         zoomType="hover"
                         :showZoom="false"
                         :hideHint="true"
@@ -100,18 +100,18 @@
               kategori: 'Project Management',
               description: [
                 {
-                  name: 'images/codeigniter.svg',
+                  name: 'codeigniter.svg',
                 },
               ],
               images: [
                 {
-                  src: 'images/cost1.png',
+                  src: 'cost1.png',
                 },
                 {
-                  src: 'images/cost2.png',
+                  src: 'cost2.png',
                 },
                 {
-                  src: 'images/cost3.png',
+                  src: 'cost3.png',
                 },
               ]
             },
@@ -121,21 +121,21 @@
               kategori: 'Project Management',
               description: [
                 {
-                  name: 'images/laravel.svg',
+                  name: 'laravel.svg',
                 },
                 {
-                  name: 'images/vuejs.svg'
+                  name: 'vuejs.svg'
                 }
               ],
               images: [
                 {
-                  src: 'images/lsp1.png',
+                  src: 'lsp1.png',
                 },
                 {
-                  src: 'images/lsp2.png',
+                  src: 'lsp2.png',
                 },
                 {
-                  src: 'images/lsp3.png',
+                  src: 'lsp3.png',
                 },
               ],
             } 
@@ -147,18 +147,18 @@
               kategori: 'Web Profile',
               description: [
                 {
-                  name: 'images/javascript.svg',
+                  name: 'javascript.svg',
                 },
                 {
-                  name: 'images/php.svg',
+                  name: 'php.svg',
                 },
                 {
-                  name: 'images/tailwind-css.svg',
+                  name: 'tailwind-css.svg',
                 },
               ],
               images: [
                 {
-                  src: 'images/ict.png',
+                  src: 'ict.png',
                 },
               ],
               link: 'https://ict-project-v3.vercel.app/'
@@ -194,40 +194,51 @@
     column-gap: 30px;
     padding-bottom: 30px;
   }
-  .card{
-    width: 50%;
-    border: 1px solid #e8ebf0;
-    background-color: #f7fafc;
-  }
-  .card-item{
-    padding: 0px;
-  }
-  .img-portofolio{
-    display: block;
-    width: 100%;
-  }
-  .card-item .inner-image-zoom{
-    display: none;
-  }
-  .what{
-    padding: 15px;
-  }
-  .zoom-in{
-    padding-left: 15px;
-    padding-bottom: 15px;
-    border: 1px solid #e8ebf0;
-  }
-  .card-dialog{
-    width: 630px;
-    display:flex;
-    margin: auto;
-  }
-  .zoom-in{
-    color: black;
-    text-align: center;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
+    .card{
+      width: 50%;
+      border: 1px solid #e8ebf0;
+      background-color: #f7fafc;
+    }
+    .card-item{
+      padding: 0px;
+    }
+    .img-portofolio{
+      display: block;
+      width: 100%;
+    }
+    .card-item .inner-image-zoom{
+      display: none;
+    }
+    .what{
+      padding: 15px;
+    }
+    .zoom-in{
+      padding-left: 15px;
+      padding-bottom: 15px;
+      border: 1px solid #e8ebf0;
+    }
+    .card-dialog{
+      width: 630px;
+      display:flex;
+      margin: auto;
+    }
+    .zoom-in{
+      color: black;
+      text-align: center;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+  @media(min-width: 691px){
+    .window-portofolio{
+      padding-top: 30px;
+      height: 370px;
+    }
+    .img-portofolio{
+      display: block;
+      width: 100%;
+      height: 160px;
+    }
   }
   @media(min-width: 0px) and (max-width: 690px){
     .card-item .inner-image-zoom{
