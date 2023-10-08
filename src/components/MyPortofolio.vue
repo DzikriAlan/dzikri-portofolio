@@ -26,14 +26,14 @@
       >
         <v-card-item class="card-item">
           <inner-image-zoom
-            :src="`@/images/${item.images[0].src}`"
+            :src="item.images[0].src"
             :hideHint="true"
             zoomType="hover"
             class="inner-image-zoom"
           />
           <v-img
             cover
-            :src="`@/images/${item.images[0].src}`"
+            :src="item.images[0].src"
             class="img-portofolio"
           ></v-img>
           <div class="what">
@@ -105,13 +105,13 @@
               ],
               images: [
                 {
-                  src: 'cost1.png',
+                  src: '@/images/cost1.png',
                 },
                 {
-                  src: 'cost2.png',
+                  src: '@/images/cost2.png',
                 },
                 {
-                  src: 'cost3.png',
+                  src: '@/images/cost3.png',
                 },
               ]
             },
@@ -158,7 +158,7 @@
               ],
               images: [
                 {
-                  src: 'ict.png',
+                  src: '@/images/ict.png',
                 },
               ],
               link: 'https://ict-project-v3.vercel.app/'
