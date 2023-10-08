@@ -26,14 +26,14 @@
       >
         <v-card-item class="card-item">
           <inner-image-zoom
-            :src="`./public/images/${item.images[0].src}`"
+            :src="`public/images/${item.images[0].src}`"
             :hideHint="true"
             zoomType="hover"
             class="inner-image-zoom"
           />
           <v-img
             cover
-            :src="`./public/images/${item.images[0].src}`"
+            :src="`public/images/${item.images[0].src}`"
             class="img-portofolio"
           ></v-img>
           <div class="what">
@@ -42,7 +42,7 @@
             <div style="display: flex"> 
               <span style="padding-right: 5px;">Stack :</span>
               <span v-for="svg in item.description" :key="svg.name">
-                <img :src="`./public/images/${svg.name}`" width="24" height="24" style="margin-left: 6px;" />
+                <img :src="`public/images/${svg.name}`" width="24" height="24" style="margin-left: 6px;" />
               </span>
             </div>
           </div>
@@ -59,8 +59,8 @@
                     class="carousel-item-dialog"
                   >
                     <InnerImageZoom
-                        :src="`./public/images/${item.src}`"
-                        :zoomSrc="`./public/images/${item.src}`"
+                        :src="`public/images/${item.src}`"
+                        :zoomSrc="`public/images/${item.src}`"
                         zoomType="hover"
                         :showZoom="false"
                         :hideHint="true"
