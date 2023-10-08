@@ -42,7 +42,7 @@
             <div style="display: flex"> 
               <span style="padding-right: 5px;">Stack :</span>
               <span v-for="svg in item.description" :key="svg.name">
-                <img :src="`@/images/${svg.name}`" width="24" height="24" style="margin-left: 6px;" />
+                <img :src="svg.name" width="24" height="24" style="margin-left: 6px;" />
               </span>
             </div>
           </div>
@@ -59,8 +59,8 @@
                     class="carousel-item-dialog"
                   >
                     <InnerImageZoom
-                        :src="`@/images/${item.src}`"
-                        :zoomSrc="`@/images/${item.src}`"
+                        :src="item.src"
+                        :zoomSrc="item.src"
                         zoomType="hover"
                         :showZoom="false"
                         :hideHint="true"
@@ -88,6 +88,13 @@
   import lsp1 from '@/assets/images/lsp1.png';
   import lsp2 from '@/assets/images/lsp2.png';
   import lsp3 from '@/assets/images/lsp3.png';
+  import codeigniter from '@/assets/images/codeigniter.svg';
+  import laravel from '@/assets/images/laravel.svg';
+  import vuejs from '@/assets/images/vuejs.svg';
+  import javascript from '@/assets/images/javascript.svg';
+  import php from '@/assets/images/php.svg';
+  import tailwind from '@/assets/images/tailwind-css.svg';
+  import ict from '@/assets/images/ict.png';
 
   export default {
     name: 'MyPortofolio',
@@ -107,7 +114,7 @@
               kategori: 'Project Management',
               description: [
                 {
-                  name: 'codeigniter.svg',
+                  name: codeigniter,
                 },
               ],
               images: [
@@ -128,10 +135,10 @@
               kategori: 'Project Management',
               description: [
                 {
-                  name: 'laravel.svg',
+                  name: laravel,
                 },
                 {
-                  name: 'vuejs.svg'
+                  name: vuejs
                 }
               ],
               images: [
@@ -154,18 +161,18 @@
               kategori: 'Web Profile',
               description: [
                 {
-                  name: 'javascript.svg',
+                  name: javascript,
                 },
                 {
-                  name: 'php.svg',
+                  name: php,
                 },
                 {
-                  name: 'tailwind-css.svg',
+                  name: tailwind,
                 },
               ],
               images: [
                 {
-                  src: '@/images/ict.png',
+                  src: ict,
                 },
               ],
               link: 'https://ict-project-v3.vercel.app/'
