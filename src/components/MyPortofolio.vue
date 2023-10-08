@@ -82,6 +82,13 @@
 
 <script>
   import InnerImageZoom from 'vue-inner-image-zoom'
+  import cost1 from '@/assets/images/cost1.png';
+  import cost2 from '@/assets/images/cost2.png';
+  import cost3 from '@/assets/images/cost3.png';
+  import lsp1 from '@/assets/images/lsp1.png';
+  import lsp2 from '@/assets/images/lsp2.png';
+  import lsp3 from '@/assets/images/lsp3.png';
+
   export default {
     name: 'MyPortofolio',
     components: {
@@ -105,13 +112,13 @@
               ],
               images: [
                 {
-                  src: '@/images/cost1.png',
+                  src: cost1,
                 },
                 {
-                  src: '@/images/cost2.png',
+                  src: cost2,
                 },
                 {
-                  src: '@/images/cost3.png',
+                  src: cost3,
                 },
               ]
             },
@@ -129,13 +136,13 @@
               ],
               images: [
                 {
-                  src: 'lsp1.png',
+                  src: lsp1,
                 },
                 {
-                  src: 'lsp2.png',
+                  src: lsp2,
                 },
                 {
-                  src: 'lsp3.png',
+                  src: lsp3,
                 },
               ],
             } 
