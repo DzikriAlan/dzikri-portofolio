@@ -1,5 +1,5 @@
 <template>
-  <div class="portofolio">PORTFOLIO</div>
+  <div class="portofolio">PORTOFOLIO</div>
   <v-tabs
     fixed-tabs
     bg-color="white"
@@ -10,10 +10,10 @@
     @click="handleChange"
   >
     <v-tab value="tab-1">
-      <div style="color: black;">Work</div>
+      <div style="color: black;">Pekerjaan</div>
     </v-tab>
     <v-tab value="tab-2">
-      <div style="color: black;">Personal</div>
+      <div style="color: black;">Pribadi</div>
     </v-tab>
   </v-tabs>
   <v-window class="window-portofolio">
@@ -132,7 +132,7 @@
             {
               tab: 'tab-1',
               nama: 'LSP System',
-              kategori: 'Online Exams',
+              kategori: 'Ujian Online',
               description: [
                 {
                   name: laravel,

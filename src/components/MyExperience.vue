@@ -1,7 +1,7 @@
 <template>
   <div class="sheet-2-bang">
-    <div>Has more than 1 year of programming experience and has developed systems and built attractive and functional web interfaces</div>
-    <a href="mailto:dzikrialan0@gmail.com" target="_blank" class="email">Interested in working together? Email me!</a>
+    <div>Memiliki lebih dari 1 tahun pengalaman pemrograman dan telah mengembangkan sistem serta membangun antarmuka web yang menarik dan fungsional</div>
+    <a href="mailto:dzikrialan0@gmail.com" target="_blank" class="email">Tertarik bekerja sama? Email disini!</a>
   </div>
 </template>
 
