@@ -21,7 +21,69 @@
       <v-card
         class="card"
         variant="outlined"
-        v-for="item in portofolio"
+        v-for="item in portofolio1"
+        :key="item.nama"
+      >
+        <v-card-item class="card-item">
+          <inner-image-zoom
+            :src="item.images[0].src"
+            :hideHint="true"
+            zoomType="hover"
+            class="inner-image-zoom"
+          />
+          <v-img
+            cover
+            :src="item.images[0].src"
+            class="img-portofolio"
+          ></v-img>
+          <div class="what">
+            <div style="color: #8596b6">{{ item.kategori }}</div>
+            <h3 style="letter-spacing: -1px;">{{ item.nama }}</h3>
+            <div style="display: flex"> 
+              <span style="padding-right: 5px;">Stack :</span>
+              <span v-for="svg in item.description" :key="svg.name">
+                <img :src="svg.name" width="24" height="24" style="margin-left: 6px;" />
+              </span>
+            </div>
+          </div>
+          <v-dialog v-if="item.tab === 'tab-1'" class="dialog">
+            <template v-slot:activator="{ props }">
+              <v-btn v-bind="props" text="Zoom In" class="zoom-in" variant="outlined"></v-btn>
+            </template>
+            <template v-slot:default="{ }">
+              <v-card class="card-dialog">
+                <v-carousel height="308" hide-delimiter-background color="blue-grey-lighten-3" :show-arrows="false" class="carousel-dialog">
+                  <v-carousel-item
+                    v-for="(item,i) in item.images"
+                    :key="i"
+                    class="carousel-item-dialog"
+                  >
+                    <InnerImageZoom
+                        :src="item.src"
+                        :zoomSrc="item.src"
+                        zoomType="hover"
+                        :showZoom="false"
+                        :hideHint="true"
+                        class="inner-zoom"
+                    />
+                  </v-carousel-item>
+                </v-carousel>
+              </v-card>
+            </template>
+          </v-dialog>
+          <a v-if="item.tab === 'tab-2'" :href="item.link" target="_blank" class="link-visit">
+            <v-btn text="Zoom In" class="zoom-in-visit" variant="outlined">Visit</v-btn>
+          </a>
+        </v-card-item>
+      </v-card>
+    </v-window-item>
+  </v-window>
+  <v-window v-if="tab2" class="window-portofolio">
+    <v-window-item class="window-portofolio-item">
+      <v-card
+        class="card card-2"
+        variant="outlined"
+        v-for="item in portofolio2"
         :key="item.nama"
       >
         <v-card-item class="card-item">
@@ -88,6 +150,12 @@
   import lsp1 from '@/assets/images/lsp1.png';
   import lsp2 from '@/assets/images/lsp2.png';
   import lsp3 from '@/assets/images/lsp3.png';
+  import lurah1 from '@/assets/images/lurah1.png';
+  import lurah2 from '@/assets/images/lurah2.png';
+  import lurah3 from '@/assets/images/lurah3.png';
+  import laundry1 from '@/assets/images/laundry1.png';
+  import laundry2 from '@/assets/images/laundry2.png';
+  import laundry3 from '@/assets/images/laundry3.png';
   import codeigniter from '@/assets/images/codeigniter.svg';
   import laravel from '@/assets/images/laravel.svg';
   import vuejs from '@/assets/images/vuejs.svg';
@@ -104,9 +172,11 @@
     data () {
       return {
         tab: null,
+        tab2: true,
         dialog: false,
-        portofolio: {},
-        tipe: {
+        portofolio1: {},
+        portofolio2: {},
+        tipe1: {
           pekerjaan: [
             {
               tab: 'tab-1',
@@ -177,19 +247,72 @@
               ],
               link: 'https://ict-project-v3.vercel.app/'
             },
+            {
+              tab: 'tab-2',
+              nama: 'Laundry System',
+              kategori: 'Project Management',
+              description: [
+                {
+                  name: laravel,
+                },
+                {
+                  name: vuejs,
+                },
+              ],
+              images: [
+                {
+                  src: laundry1,
+                },
+                {
+                  src: laundry2,
+                },
+                {
+                  src: laundry3,
+                },
+              ],
+              link: 'https://github.com/DzikriAlan/laundry-system'
+            },
+          ],
+        },
+        tipe2: {
+          pekerjaan: [
+            {
+              tab: 'tab-1',
+              nama: 'Sipadatasih',
+              kategori: 'Sistem Kelurahan',
+              description: [
+                {
+                  name: laravel,
+                },
+              ],
+              images: [
+                {
+                  src: lurah1,
+                },
+                {
+                  src: lurah2,
+                },
+                {
+                  src: lurah3,
+                },
+              ]
+            },
           ],
         },
       }
     },
     created(){
-      this.portofolio = this.tipe.pekerjaan;
+      this.portofolio1 = this.tipe1.pekerjaan;
+      this.portofolio2 = this.tipe2.pekerjaan;
     },
     methods: {
       handleChange(){
         if (this.tab === 'tab-1'){
-          this.portofolio = this.tipe.pekerjaan;
+          this.portofolio1 = this.tipe1.pekerjaan;
+          this.tab2 = true;
         } else if (this.tab === 'tab-2'){
-          this.portofolio = this.tipe.pribadi;
+          this.portofolio1 = this.tipe1.pribadi;
+          this.tab2 = false;
         }
       }
     },
@@ -210,6 +333,12 @@
     }
     .card{
       width: 50%;
+      border: 1px solid #e8ebf0;
+      background-color: #f7fafc;
+    }
+    .card-2{
+      margin-top: -20px; 
+      width: 48%;
       border: 1px solid #e8ebf0;
       background-color: #f7fafc;
     }
