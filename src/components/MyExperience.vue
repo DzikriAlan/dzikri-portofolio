@@ -1,6 +1,6 @@
 <template>
   <div class="sheet-2-bang">
-    <div>Memiliki 2 tahun pengalaman pemrograman dan telah mengembangkan sistem
+    <div>Seorang Fullstack Developer. Memulai bekerja secara profesional sejak April 2023 dan telah mengembangkan sistem
 serta membangun antarmuka web yang menarik dan fungsional</div>
     <a href="mailto:dzikrialan0@gmail.com" target="_blank" class="email">Tertarik bekerja sama? Email disini!</a>
   </div>

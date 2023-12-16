@@ -9,7 +9,7 @@
     </div>
     <div class="who">
       <h2>Dzikri Alan</h2>
-      <div><mark>Full Stack Web Developer</mark></div>
+      <div><mark>Fullstack Developer</mark></div>
     </div>
   </div>
 </template>
