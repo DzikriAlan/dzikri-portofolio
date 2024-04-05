@@ -189,13 +189,13 @@
               ],
               images: [
                 {
-                  src: cost1,
-                },
-                {
                   src: cost2,
                 },
                 {
                   src: cost3,
+                },
+                {
+                  src: cost1,
                 },
               ]
             },

@@ -2,7 +2,7 @@
   <div class="sheet-2-bang">
     <div>Seorang Fullstack Developer. Memulai bekerja secara profesional sejak April 2023 dan telah mengembangkan sistem
 serta membangun antarmuka web yang menarik dan fungsional</div>
-    <a href="mailto:dzikrialan0@gmail.com" target="_blank" class="email">Tertarik bekerja sama? Email disini!</a>
+    <a href="https://wa.me/6282123339099" target="_blank" class="email">Tertarik bekerja sama? WhatsApp disini!</a>
   </div>
 </template>
 

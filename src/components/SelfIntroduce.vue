@@ -3,13 +3,13 @@
     <div>
       <v-img
         cover
-        src="@/assets/images/gue.png"
+        src="@/assets/images/gue2.png"
         class="image-gue"
       ></v-img>
     </div>
     <div class="who">
       <h2>Dzikri Alan</h2>
-      <div><mark>Fullstack Developer</mark></div>
+      <div><mark>Fullstack Developer at Kazee</mark></div>
     </div>
   </div>
 </template>
