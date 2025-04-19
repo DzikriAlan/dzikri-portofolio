@@ -1,0 +1,31 @@
+{
+  "navigator": {
+    "hello": "Halo",
+    "about": "Tentang",
+    "work": "Pekerjaan",
+    "more": "Lainnya"
+  },
+  "hero": {
+    "sayhi": "Hai! Nama saya ",
+    "where": "dan saya adalah Fullstack Web Developer di",
+    "story": "tinggal di Bandung. Saya tumbuh di bersama internet dan menyukai komputer dan perangkat lunak.",
+    "inmy": "Dalam",
+    "experience": "pengalaman saya, saya telah merancang antarmuka dan pengalaman pengguna, merencanakan, mendukung, dan mengimplementasikan fitur dan roadmap",
+    "experienceYears": "2 tahun"
+  },
+  "otherImg": "Beberapa interface aplikasi yang ditangani ketika di suryamicrosystems",
+  "kazeestory": {
+    "h1": "Berpartisipasi dalam pengembangan software yang mendukung para pemimpin dalam mengambil keputusan yang lebih baik",
+    "paragraph": "Berkontribusi pada Media Monitoring, produk utama perusahaan. Proyek ini memungkinkan pengguna untuk memantau dan menganalisis berbagai sumber media digital secara real-time.",
+    "paragraph1": "Berfokus pada pembuatan dan integrasi komponen menggunakan pendekatan yang efektif. Metode saya melibatkan pemahaman mendalam tentang kebutuhan pengguna dan memecahnya menjadi komponen yang lebih kecil dan mudah dikelola. Strategi ini tidak hanya menyederhanakan proses pengembangan tetapi juga meningkatkan skalabilitas dan kemudahan pemeliharaan kode.",
+    "paragraph2": "Pengalaman ini memperdalam keahlian saya dalam TypeScript dan Vue.js 3, memungkinkan saya untuk menerapkan praktik terbaik dalam pengembangan frontend modern. Penguasaan teknologi ini membantu saya mengimplementasikan solusi yang efisien, dapat digunakan kembali, dan tangguh untuk kebutuhan bisnis yang kompleks.",
+    "paragraph3": "Di luar Media Monitoring, saya berkontribusi pada berbagai proyek strategis. Saya berpartisipasi dalam pengembangan sistem CRM yang meningkatkan efektivitas manajemen hubungan pelanggan. Selain itu, saya terlibat dalam pembuatan TrendnowAI, platform blog inovatif yang menyajikan analisis tren ekonomi dan politik, beserta topik-topik khusus lainnya, memanfaatkan kecerdasan buatan untuk memberikan wawasan mendalam berbasis data.",
+    "figcaption1": "Dashboard interaktif untuk memonitoring berita dan topic dari berbagai sosial media"
+  },
+  "smistory": {
+    "h1": "Membangun Alat Digital yang Membantu Orang",
+    "paragraph1": "Saya berpartisipasi dalam pengembangan platform ujian online untuk institusi pendidikan yang telah diadopsi oleh beberapa sekolah. Sistem ini dirancang untuk menyederhanakan proses evaluasi pembelajaran dengan antarmuka yang intuitif bagi guru dan siswa.",
+    "paragraph2": "Kontribusi lain yang saya buat adalah dalam mengembangkan sistem yang memfasilitasi pembuatan dokumen identitas pribadi. Aplikasi ini membantu warga dalam proses pembuatan berbagai dokumen resmi seperti kartu keluarga, kartu identitas, dan dokumen administratif lainnya dengan alur kerja yang disederhanakan, sehingga meningkatkan efisiensi pelayanan publik.",
+    "paragraph3": "Saya juga ikut serta dalam memelihara aplikasi pengendalian biaya yang membantu klien mencatat dan mengelola pengeluaran. Sistem ini menyediakan fungsionalitas untuk membuat dan mengelola Rencana Anggaran Pelaksanaan (RAP) dan Rencana Anggaran Biaya (RAB), memungkinkan perencanaan keuangan yang lebih akurat dan transparansi dalam pengelolaan dana proyek."
+  }
+}

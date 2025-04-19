@@ -1,0 +1,32 @@
+{
+  "navigator": {
+    "about": "About",
+    "work": "Work",
+    "more": "More"
+  },
+  "hero": {
+    "sayhi": "Hi! My name is ",
+    "where": "and I am a Fullstack Web Developer at" ,
+    "story": "living in Bandung. I grew up around the internet and love computers and software.",
+    "inmy": "In my",
+    "experience": "of experience, I have designed User interfaces and experiences, planned, supported, and implemented features and roadmaps",
+    "experienceYears": "2 years",
+    "introduce": "Let me introduce myself",
+    "introduce2": "(I am no longer looking for a job but keeping this video up)"
+  },
+  "otherImg": "Some application interfaces handled when in",
+  "kazeestory": {
+    "h1": "Participate in software that supports leaders in making better decisions",
+    "paragraph": "Contributing to Media Monitoring, a key product of the company. This project enables users to monitor and analyze various digital media sources in real-time.",
+    "paragraph1": "Focusing on component creation and integration using effective approaches. My method involved deeply understanding user needs and breaking them down into smaller, manageable components. This strategy not only simplified the development process but also enhanced code scalability and maintainability.",
+    "paragraph2": "This experience deepened my expertise in TypeScript and Vue.js 3, allowing me to apply best practices in modern frontend development. Mastery of these technologies helped me implement efficient, reusable, and robust solutions for complex business needs.",
+    "paragraph3": "Beyond Media Monitoring, I contributed to various strategic projects. I participated in developing a CRM system that enhanced customer relationship management effectiveness. Additionally, I was involved in creating TrendnowAI, an innovative blog platform that presents analyses of economic and political trends, along with other special topics, leveraging artificial intelligence to provide deeper, data-driven insights.",
+    "figcaption1": "Interactive dashboard to monitor news and topics from various social media"
+  },
+  "smistory": {
+    "h1": "Building Digital Tools That Help People",
+    "paragraph1": "I participated in developing an online examination platform for educational institutions that has been adopted by several schools. This system was designed to streamline the learning evaluation process with an intuitive interface for both teachers and students.",
+    "paragraph2": "Another contribution I made was in developing a system facilitating personal identity document creation. This application helps citizens in the process of creating various official documents such as family cards, identity cards, and other administrative documents with a simplified workflow, thus improving public service efficiency.",
+    "paragraph3": "I also took part in maintaining a cost control application that helps clients record and manage expenses. This system provides functionality for creating and managing Implementation Budget Plans (RAP) and Cost Budget Plans (RAB), enabling more accurate financial planning and transparency in project fund management."
+  }
+}
