@@ -64,7 +64,7 @@ const downloadCV = () => {
         <div class="hidden sm:block absolute sm:bottom-[30px] sm:-left-[120px] sm:z-30 sm:text-[1.45rem] sm:font-caveat sm:italic sm:w-[100px] sm:transform sm:-rotate-[20deg] font-bold">Let me introduce myself</div>
         <div class="flex justify-center transform translate-y-[50px]">
           <div class="text-md italic text-center font-caveat w-[250px]">
-            (I am no longer looking for a job but keeping this video up)
+            (Happy where I am — here’s a glimpse of my journey so far!)
           </div>
         </div>
       </div>
