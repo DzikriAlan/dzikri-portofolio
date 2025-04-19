@@ -5,13 +5,13 @@ import NavbarLayout from '@/components/layout/NavbarLayout.vue';
 import lsp1 from '@/assets/images/company/lsp1.png';
 import lsp2 from '@/assets/images/company/lsp2.png';
 import lsp3 from '@/assets/images/company/lsp3.png';
-import lsp4 from '@/assets/images/company/lsp4.png';
+import lsp5 from '@/assets/images/company/lsp5.png';
 import smi from '@/assets/images/logo-company/smi.jpeg'
 import { useI18n } from 'vue-i18n';
 
 const logo = ref(smi);
 const { t } = useI18n();
-const lspimage = ref([lsp1, lsp2, lsp3, lsp4]);
+const lspimage = ref([lsp1, lsp2, lsp3, lsp5]);
 </script>
 <template>
   <div id="suryamicrosystemsstory">
