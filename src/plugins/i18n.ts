@@ -4,11 +4,11 @@ import en from '@/locales/en.json'
 import id from '@/locales/id.json'
 
 export const i18n = createI18n({
- legacy: false,
- locale: 'en',
- fallbackLocale: 'en',
- messages: {
-   en,
-   id
- }
+legacy: false,
+locale: 'id',
+fallbackLocale: 'en',
+messages: {
+  en,
+  id
+}
 })

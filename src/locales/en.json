@@ -5,12 +5,12 @@
     "more": "More"
   },
   "hero": {
-    "sayhi": "Hi! My name is ",
-    "where": "and I am a Fullstack Web Developer at" ,
-    "story": "living in Bandung. I grew up around the internet and love computers and software.",
-    "inmy": "In my",
-    "experience": "of experience, I have designed User interfaces and experiences, planned, supported, and implemented features and roadmaps",
+    "sayhi": "Helo! I'm ",
+    "where": "— a Fullstack Web Developer at",
+    "story": " based in Bandung, Indonesia. I've had an interest in technology, software, and problem-solving for quite some time.",
+    "inmy": "With",
     "experienceYears": "2 years",
+    "experience": "of hands-on experience, I have designed efficient interfaces, built user-friendly experiences, and implemented relevant features aligned with the product roadmap.",
     "introduce": "Let me introduce myself",
     "introduce2": "(Happy where I am — here’s a glimpse of my journey so far!)"
   },
