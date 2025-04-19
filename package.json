@@ -20,7 +20,7 @@
     "vue-inner-image-zoom": "^2.0.0",
     "vue-router": "^4.0.0",
     "vue3-marquee": "^4.2.2",
-    "vuetify": "^3.0.0"
+    "vuetify": "^3.8.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
@@ -32,6 +32,6 @@
     "tailwindcss": "^3.4.17",
     "unplugin-fonts": "^1.0.3",
     "vite": "^4.2.0",
-    "vite-plugin-vuetify": "^1.0.0"
+    "vite-plugin-vuetify": "^1.0.2"
   }
 }
