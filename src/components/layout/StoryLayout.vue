@@ -42,7 +42,7 @@
       </div>
       <div v-else class="mb-8">
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-    <figure v-for="(image, index) in images.slice(0, 4)" :key="index" class="rounded-lg overflow-hidden h-48 md:h-[220px] flex items-center justify-center">
+    <figure v-for="(image, index) in images.slice(0, 4)" :key="index" class="rounded-lg overflow-hidden h-48 md:h-[182px] flex items-center justify-center">
       <img :src="image" :alt="labelFigcaption" class="w-full h-auto max-h-full object-contain rounded-lg" />
     </figure>
   </div>

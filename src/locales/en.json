@@ -14,14 +14,15 @@
     "introduce": "Let me introduce myself",
     "introduce2": "(Happy where I am — here’s a glimpse of my journey so far!)"
   },
-  "otherImg": "Some application interfaces handled when in",
+  "otherImg": "Some application interfaces handled when at",
+  "otherImgLsp": "Some LSP application interfaces handled when at",
   "kazeestory": {
     "h1": "Participate in software that supports leaders in making better decisions",
     "paragraph": "Contributing to Media Monitoring, a key product of the company. This project enables users to monitor and analyze various digital media sources in real-time.",
     "paragraph1": "Focusing on component creation and integration using effective approaches. My method involved deeply understanding user needs and breaking them down into smaller, manageable components. This strategy not only simplified the development process but also enhanced code scalability and maintainability.",
     "paragraph2": "This experience deepened my expertise in TypeScript and Vue.js 3, allowing me to apply best practices in modern frontend development. Mastery of these technologies helped me implement efficient, reusable, and robust solutions for complex business needs.",
     "paragraph3": "Beyond Media Monitoring, I contributed to various strategic projects. I participated in developing a CRM system that enhanced customer relationship management effectiveness. Additionally, I was involved in creating TrendnowAI, an innovative blog platform that presents analyses of economic and political trends, along with other special topics, leveraging artificial intelligence to provide deeper, data-driven insights.",
-    "figcaption1": "Interactive dashboard to monitor news and topics from various social media"
+    "figcaption1": "Interactive dashboard to monitor news and topics from various social media at"
   },
   "smistory": {
     "h1": "Building Digital Tools That Help People",

@@ -14,15 +14,16 @@
     "experienceYears": "2 tahun",
     "introduce": "Let me introduce myself",
     "introduce2": "(Happy where I am — here’s a glimpse of my journey so far!)"
-  },
-  "otherImg": "Beberapa interface aplikasi yang ditangani ketika di suryamicrosystems",
+  }, 
+  "otherImg": "Beberapa interface aplikasi yang ditangani ketika di",
+  "otherImgLsp": "Beberapa interface aplikasi LSP yang ditangani ketika di",
   "kazeestory": {
     "h1": "Berpartisipasi dalam pengembangan software yang mendukung para pemimpin dalam mengambil keputusan yang lebih baik",
     "paragraph": "Berkontribusi pada Media Monitoring, produk utama perusahaan. Proyek ini memungkinkan pengguna untuk memantau dan menganalisis berbagai sumber media digital secara real-time.",
     "paragraph1": "Berfokus pada pembuatan dan integrasi komponen menggunakan pendekatan yang efektif. Metode saya melibatkan pemahaman mendalam tentang kebutuhan pengguna dan memecahnya menjadi komponen yang lebih kecil dan mudah dikelola. Strategi ini tidak hanya menyederhanakan proses pengembangan tetapi juga meningkatkan skalabilitas dan kemudahan pemeliharaan kode.",
     "paragraph2": "Pengalaman ini memperdalam keahlian saya dalam TypeScript dan Vue.js 3, memungkinkan saya untuk menerapkan praktik terbaik dalam pengembangan frontend modern. Penguasaan teknologi ini membantu saya mengimplementasikan solusi yang efisien, dapat digunakan kembali, dan tangguh untuk kebutuhan bisnis yang kompleks.",
     "paragraph3": "Di luar Media Monitoring, saya berkontribusi pada berbagai proyek strategis. Saya berpartisipasi dalam pengembangan sistem CRM yang meningkatkan efektivitas manajemen hubungan pelanggan. Selain itu, saya terlibat dalam pembuatan TrendnowAI, platform blog inovatif yang menyajikan analisis tren ekonomi dan politik, beserta topik-topik khusus lainnya, memanfaatkan kecerdasan buatan untuk memberikan wawasan mendalam berbasis data.",
-    "figcaption1": "Dashboard interaktif untuk memonitoring berita dan topic dari berbagai sosial media"
+    "figcaption1": "Dashboard interaktif untuk memonitoring berita dan topic dari berbagai sosial media di"
   },
   "smistory": {
     "h1": "Membangun Alat Digital yang Membantu Orang",
