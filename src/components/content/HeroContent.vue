@@ -8,11 +8,8 @@ import LanguageSwitcher from '../reusable/LanguageSwitcher.vue';
 
 const arrowUpRightIcon = ref(arrowUpRight)
 const { t } = useI18n();
-const downloadCV = () => {
-  const link = document.createElement('a')
-  link.href = '/src/assets/cv/Dzikri-Alan-Ramadhan.pdf' // Adjust filename as needed
-  link.download = 'Dzikri-Alan-Ramadhan-Resume.pdf'
-  link.click()
+const openCVInNewTab = () => {
+  window.open('/src/assets/cv/Dzikri-Alan-Ramadhan.pdf', '_blank')
 }
 </script>
 <template>
@@ -34,7 +31,7 @@ const downloadCV = () => {
           <a class="no-style-a" target="_blank" href="mailto:dzikripride@gmail.com"><Tag label="Email" :svg="arrowUpRightIcon" useSvg /></a>
           <a class="no-style-a" target="_blank" href="https://www.instagram.com/_dzikrialan/"><Tag label="Instagram" :svg="arrowUpRightIcon" useSvg /></a>
           <a class="no-style-a" target="_blank" href="https://www.linkedin.com/in/dzikri-alan/"><Tag label="LinkedIn" :svg="arrowUpRightIcon" useSvg /></a>
-          <a class="no-style-a" target="_blank" href="#" @click.prevent="downloadCV"><Tag label="CV/Resume" :svg="arrowUpRightIcon" useSvg /></a>
+          <a class="no-style-a" target="_blank" href="#" @click.prevent="openCVInNewTab"><Tag label="CV/Resume" :svg="arrowUpRightIcon" useSvg /></a>
         </div>
       </div>
     </template>
