@@ -31,7 +31,7 @@ const openCVInNewTab = () => {
           <a class="no-style-a" target="_blank" href="mailto:dzikripride@gmail.com"><Tag label="Email" :svg="arrowUpRightIcon" useSvg /></a>
           <a class="no-style-a" target="_blank" href="https://www.instagram.com/_dzikrialan/"><Tag label="Instagram" :svg="arrowUpRightIcon" useSvg /></a>
           <a class="no-style-a" target="_blank" href="https://www.linkedin.com/in/dzikri-alan/"><Tag label="LinkedIn" :svg="arrowUpRightIcon" useSvg /></a>
-          <a class="no-style-a" target="_blank" href="#" @click.prevent="openCVInNewTab"><Tag label="CV/Resume" :svg="arrowUpRightIcon" useSvg /></a>
+          <!-- <a class="no-style-a" target="_blank" href="#" @click.prevent="openCVInNewTab"><Tag label="CV/Resume" :svg="arrowUpRightIcon" useSvg /></a> -->
         </div>
       </div>
     </template>
