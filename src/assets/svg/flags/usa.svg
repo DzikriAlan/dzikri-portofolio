@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30">
+  <rect width="60" height="30" fill="#B22234"/>
+  <g fill="#fff">
+    <rect width="60" height="2.14" y="2.14"/>
+    <rect width="60" height="2.14" y="6.42"/>
+    <rect width="60" height="2.14" y="10.7"/>
+    <rect width="60" height="2.14" y="14.98"/>
+    <rect width="60" height="2.14" y="19.26"/>
+    <rect width="60" height="2.14" y="23.54"/>
+    <rect width="60" height="2.14" y="27.82"/>
+  </g>
+  <rect width="24" height="14" fill="#3C3B6E"/>
+  <g fill="#fff" font-size="2.4" font-family="Arial, sans-serif">
+    <text x="1" y="2">★ ★ ★ ★ ★ ★</text>
+    <text x="1.6" y="4"> ★ ★ ★ ★ ★</text>
+    <text x="1" y="6">★ ★ ★ ★ ★ ★</text>
+    <text x="1.6" y="8"> ★ ★ ★ ★ ★</text>
+    <text x="1" y="10">★ ★ ★ ★ ★ ★</text>
+    <text x="1.6" y="12"> ★ ★ ★ ★ ★</text>
+    <text x="1" y="14">★ ★ ★ ★ ★ ★</text>
+  </g>
+</svg>

@@ -2,14 +2,14 @@
 import { computed, onMounted, onUnmounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import indonesiaFlag from '@/assets/svg/flags/indo.svg';
-import ukFlag from '@/assets/svg/flags/english.svg';
+import usaFlag from '@/assets/svg/flags/usa.svg';
 
 const { locale } = useI18n();
 
 const currentLocale = computed(() => locale.value);
 
 const currentLanguageIcon = computed(() => {
-  return locale.value === 'id' ? indonesiaFlag : ukFlag;
+  return locale.value === 'id' ? indonesiaFlag : usaFlag;
 });
 
 const toggleLanguage = () => {
