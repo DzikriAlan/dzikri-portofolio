@@ -25,7 +25,7 @@ const navigationItems = computed<NavigationItem[]>(() => {
  ];
 });
 
-const activeSection = ref<string>('');
+const activeSection = ref<string>('herolayout');
 
 const scrollToSection = (targetId: string) => {
  const element = document.getElementById(targetId);

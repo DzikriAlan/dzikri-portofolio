@@ -28,7 +28,7 @@ const data = ref<JourneyItem[]>([
 
 </script>
 <template>
-  <div id="experience">
+  <div id="experience" style="margin-top: 1px;">
     <NavbarLayout id="experience" label="Experience & Skills"/>
     <div class="container mx-auto px-8 sm:px-4 py-8">
       <JourneyLayout :data="data" />
