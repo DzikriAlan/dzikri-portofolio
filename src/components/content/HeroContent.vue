@@ -43,7 +43,7 @@ onUnmounted(() => {
       <div>
         <div class="flex flex-col">
           <span class="text-[24px] sm:text-[32px] font-bold text-white">Dzikri Alan</span>
-          <span class="text-[24px] sm:text-[32px] mb-5 -translate-y-2 md:-translate-y-[10px]">Fullstack Web Developer</span>
+          <span class="text-[24px] sm:text-[32px] mb-5 -translate-y-2 md:-translate-y-[10px]">Fullstack Developer</span>
         </div>
         <p class="sm:text-base text-sm mb-6">
         {{ t('hero.sayhi') }}<b class="text-white">Dzikri Alan</b> {{ t('hero.where') }} <b class="text-white">Kazee</b>, 
@@ -74,7 +74,7 @@ onUnmounted(() => {
               class="w-full h-full object-cover object-center absolute inset-0 transition-all duration-300 z-20 scale-125 transform"
             />
             <img 
-              src="@/assets/images/gue/gue3.jpg" 
+              src="@/assets/images/gue/gue4.jpg" 
               alt="Dzikri Alan" 
               class="w-full h-full object-cover rounded-full object-center absolute inset-0 z-10" 
             />

@@ -3,11 +3,12 @@
     "hello": "Halo",
     "about": "Tentang",
     "work": "Pekerjaan",
+    "faq": "FAQ",
     "more": "Lainnya"
   },
   "hero": {
     "sayhi": "Halo! Nama saya ",
-    "where": "seorang Fullstack Web Developer di ",
+    "where": "seorang Fullstack Developer di ",
     "story": "berbasis di Bandung, Indonesia. Sejak lama saya memiliki ketertarikan terhadap teknologi, perangkat lunak, dan pemecahan masalah",
     "inmy": "Dengan pengalaman selama",
     "experience": " saya telah merancang antarmuka yang efisien, membangun pengalaman pengguna yang mudah digunakan, dan mengimplementasikan fitur-fitur yang relevan sesuai dengan roadmap produk.",
@@ -18,17 +19,57 @@
   "otherImg": "Beberapa interface aplikasi yang ditangani ketika di",
   "otherImgLsp": "Beberapa interface aplikasi LSP yang ditangani ketika di",
   "kazeestory": {
-    "h1": "Berpartisipasi dalam pengembangan software yang mendukung para pemimpin dalam mengambil keputusan yang lebih baik",
-    "paragraph": "Berkontribusi pada Media Monitoring, produk utama perusahaan. Proyek ini memungkinkan pengguna untuk memantau dan menganalisis berbagai sumber media digital secara real-time.",
-    "paragraph1": "Berfokus pada pembuatan dan integrasi komponen menggunakan pendekatan yang efektif. Metode saya melibatkan pemahaman mendalam tentang kebutuhan pengguna dan memecahnya menjadi komponen yang lebih kecil dan mudah dikelola. Strategi ini tidak hanya menyederhanakan proses pengembangan tetapi juga meningkatkan skalabilitas dan kemudahan pemeliharaan kode.",
-    "paragraph2": "Pengalaman ini memperdalam keahlian saya dalam TypeScript dan Vue.js 3, memungkinkan saya untuk menerapkan praktik terbaik dalam pengembangan frontend modern. Penguasaan teknologi ini membantu saya mengimplementasikan solusi yang efisien, dapat digunakan kembali, dan tangguh untuk kebutuhan bisnis yang kompleks.",
-    "paragraph3": "Di luar Media Monitoring, saya berkontribusi pada berbagai proyek strategis. Saya berpartisipasi dalam pengembangan sistem CRM yang meningkatkan efektivitas manajemen hubungan pelanggan. Selain itu, saya terlibat dalam pembuatan TrendnowAI, platform blog inovatif yang menyajikan analisis tren ekonomi dan politik, beserta topik-topik khusus lainnya, memanfaatkan kecerdasan buatan untuk memberikan wawasan mendalam berbasis data.",
-    "figcaption1": "Dashboard interaktif untuk memonitoring berita dan topic dari berbagai sosial media di"
+    "medmon": {
+      "title": "Media Monitoring",
+      "subtitle": "Berkontribusi dalam maintenance seperti bugfixing dan pembuatan sub fitur media relasi"
+    },
+    "trendnow": {
+      "title": "Trendnow AI",
+      "subtitle": "Berkontribusi dalam pembuatan awal mulai dari landing page sampai manajemen content blog didalamnya"
+    },
+    "kazeesmartboard": {
+      "title": "Kazee Smartboard",
+      "subtitle": "Berkontribusi dalam pengembangan dan perancangan design architecture serta integrasi dengan chatbot sebagai fitur utama dalam aplikasi ini yang akan dapat menganalisis masing masing dari data widget"
+    },
+    "aisearch": {
+      "title": "AI Search",
+      "subtitle": "Berkontribusi dalam pembuatan awal seperti layouting dan perancangan design architecture serta integrasi dengan ai yang akan membantu user melakukan pencarian dengan berbasis makna dan konteks"
+    }
   },
   "smistory": {
-    "h1": "Membangun Alat Digital yang Membantu Orang",
-    "paragraph1": "Saya berpartisipasi dalam pengembangan platform ujian online (LSP/ Lembaga Sertifikasi Profesi) untuk institusi pendidikan yang telah diadopsi oleh beberapa sekolah. Sistem ini dirancang untuk menyederhanakan proses evaluasi pembelajaran dengan antarmuka yang intuitif bagi guru dan siswa.",
-    "paragraph2": "Kontribusi lain yang saya buat adalah dalam mengembangkan sistem yang memfasilitasi pembuatan dokumen identitas pribadi. Aplikasi ini membantu warga dalam proses pembuatan berbagai dokumen resmi seperti kartu keluarga, kartu identitas, dan dokumen administratif lainnya dengan alur kerja yang disederhanakan, sehingga meningkatkan efisiensi pelayanan publik.",
-    "paragraph3": "Saya juga ikut serta dalam memelihara aplikasi pengendalian biaya yang membantu klien mencatat dan mengelola pengeluaran. Sistem ini menyediakan fungsionalitas untuk membuat dan mengelola Rencana Anggaran Pelaksanaan (RAP) dan Rencana Anggaran Biaya (RAB), memungkinkan perencanaan keuangan yang lebih akurat dan transparansi dalam pengelolaan dana proyek."
+    "lsp": {
+      "title": "LSP - Web Uji Lembaga Sertifikasi Profesi",
+      "subtitle": "Berkontribusi dalam pembuatan banyak form uji dan penentuan alur aplikasi uji lsp"
+    },
+    "cc": {
+      "title": "Aplikasi cost control",
+      "subtitle": "Berkontribusi dalam maintenance web mulai dari bugfixing, optimasi fitur dashboard dan lain lain"
+    },
+    "sipadatasih": {
+      "title": "Sipadatasih - Web desa pengajuan permohonan",
+      "subtitle": "Berkontribusi pada fitur pengajuan permohonan masyarakat pada pembuatan dokumen pribadi"
+    }
+  },
+  "faq": {
+    "first": {
+      "question": "Awal mula memulai karir sebagai programmer",
+      "answer": {
+        "paragraph1": "sedikit bercerita di detik detik akhir menjelang kelulusan SMK sempat bingung pada perjalanan selanjutnya mau dibawa kemana. hasilnya saya memutuskan memberanikan diri untuk bertemu seorang yang belum pernah saya temui dan tidak saya kenali secara langsung, karena sekedar mengenali dari Instagram, yaitu seorang CEO software agency yang sedang dirintis nya, dan bertemu di kedai kopi miliknya",
+        "paragraph2": "disana diawali dari berbicara latar belakang serta sharing seputar pekerjaan ini tentunya. singkat cerita setelah banyak percakapan yang dilalui hasil akhir pertemuan ini adalah saya diberikan project pertama yaitu pengembangan aplikasi ujian LSP (Lembaga Sertifikasi Profesi). sisanya adalah perjalanan karir saya sampai saat ini",
+        "paragraph3": "terkadang perlu memberanikan untuk melakukan sesuatu yang kita takuti, jika berhasil maka lakukan lagi"
+      }
+    },
+    "second": {
+      "question": "Bagaimana cara mendapatkan pekerjaan sebagai programmer tanpa gelar IT?",
+      "answer": {
+        "paragraph1": "sebenarnya tidak ada cara paling ampuh karena tergantung masing masing perusahaan. tapi yang pasti adalah memiliki portofolio yang baik. kita tidak perlu membuat banyak dan cukup 1-3 saja, dengan catatan setiap aplikasi dibuat dengan proper dari frontend sampai backend. semisal frontend menerapkan ui yang menarik, responsive design, dark/light mode. lalu di backend mengimplementasikan authentication/authorization, rbac (role base access controller) dan lain sebagainya. 1 hal lagi yang menurut saya bisa sekalian di implementasikan yaitu terkait design architecture, ada banyak memang, tapi yang umum adalah MVC serta untuk frontend disarankan mencoba feature base architecture"
+      }
+    },
+    "third": {
+      "question": "Tim seperti apa yang disukai?",
+      "answer": {
+        "paragraph1": "Saya tidak mengharapkan anggota yang paling ahli di setiap peran, saya hanya butuh dan suka tim yang mendokumentasikan pekerjaan atau proyek mereka dengan baik dan jelas. Misalnya, backend developer yang mendokumentasikan API, frontend developer yang menerapkan arsitektur desain yang jelas, product designer yang mendokumentasikan referensi komponen, dan QA yang mendokumentasikan tugas dengan baik, seperti memiliki reproduce step, expected result, dan actual result."
+      }
+    }
   }
 }

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-  defineProps({
-    images: { type: Array, required: true },
-    multiple: { type: Boolean, default: false},
-    labelFigcaption: { type: String, default: ''}
-  });
+defineProps({
+  images: { type: Array, required: true },
+  multiple: { type: Boolean, default: false},
+  labelFigcaption: { type: String, default: ''}
+});
 </script>
 <template>
   <div class="w-full md:w-4/5 lg:w-3/4 xl:w-2/3 mx-auto bg-black text-white p-4 md:p-6 lg:p-8">

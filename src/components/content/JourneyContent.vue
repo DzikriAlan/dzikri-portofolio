@@ -6,31 +6,33 @@ import SkillsContent from '@/components/content/SkillsContent.vue';
 
 interface JourneyItem {
   label: string;
-  link: string;
-  date: string;
+  github: string;
+  browser?: string;
+  stack: Array<any>;
   position: string;
 }
 
 const data = ref<JourneyItem[]>([
   {
-    label: 'Kazee',
-    link: 'https://kazee.id/',
-    date: '2023 - Now',
-    position: 'Fullstack Web Developer'
+    label: 'Web Ekskul ICT',
+    github: 'https://github.com/DzikriAlan/ICT-PROJECT',
+    browser: 'https://ict-project-v3.vercel.app/',
+    stack: ['Javascript', 'PHP', 'TailwindCSS'],
+    position: 'Fullstack Developer'
   },
   {
-    label: 'Surya Microsystems',
-    link: 'https://www.suryamicrosystems.com/',
-    date: '2023',
-    position: 'Fullstack Web Developer'
+    label: 'Laundry System',
+    github: 'https://github.com/DzikriAlan/laundry-system',
+    stack: ['Laravel' ,'VueJS'],
+    position: 'Fullstack Developer'
   }
 ]);
 
 </script>
 <template>
   <div id="experience" style="margin-top: 1px;">
-    <NavbarLayout id="experience" label="Experience & Skills"/>
-    <div class="container mx-auto px-8 sm:px-4 py-8">
+    <NavbarLayout id="experience" label="Personal Project & Skills"/>
+    <div class="container mx-auto px-8 sm:px-4 py-8 pt-0">
       <JourneyLayout :data="data" />
       <SkillsContent />
     </div>

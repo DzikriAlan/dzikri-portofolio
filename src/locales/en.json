@@ -2,11 +2,12 @@
   "navigator": {
     "about": "About",
     "work": "Work",
+    "faq": "FAQ",
     "more": "More"
   },
   "hero": {
     "sayhi": "Helo! I'm ",
-    "where": "— a Fullstack Web Developer at",
+    "where": "— a Fullstack Developer at",
     "story": " based in Bandung, Indonesia. I've had an interest in technology, software, and problem-solving for quite some time.",
     "inmy": "With",
     "experienceYears": "2 years",
@@ -17,17 +18,57 @@
   "otherImg": "Some application interfaces handled when at",
   "otherImgLsp": "Some LSP application interfaces handled when at",
   "kazeestory": {
-    "h1": "Participate in software that supports leaders in making better decisions",
-    "paragraph": "Contributing to Media Monitoring, a key product of the company. This project enables users to monitor and analyze various digital media sources in real-time.",
-    "paragraph1": "Focusing on component creation and integration using effective approaches. My method involved deeply understanding user needs and breaking them down into smaller, manageable components. This strategy not only simplified the development process but also enhanced code scalability and maintainability.",
-    "paragraph2": "This experience deepened my expertise in TypeScript and Vue.js 3, allowing me to apply best practices in modern frontend development. Mastery of these technologies helped me implement efficient, reusable, and robust solutions for complex business needs.",
-    "paragraph3": "Beyond Media Monitoring, I contributed to various strategic projects. I participated in developing a CRM system that enhanced customer relationship management effectiveness. Additionally, I was involved in creating TrendnowAI, an innovative blog platform that presents analyses of economic and political trends, along with other special topics, leveraging artificial intelligence to provide deeper, data-driven insights.",
-    "figcaption1": "Interactive dashboard to monitor news and topics from various social media at"
+    "medmon": {
+      "title": "Media Monitoring",
+      "subtitle": "Contributed to maintenance such as bug fixing and the creation of the media relations sub-feature."
+    },
+    "trendnow": {
+      "title": "Trendnow AI",
+      "subtitle": "Contributed to the initial development, from the landing page to blog content management."
+    },
+    "kazeesmartboard": {
+      "title": "Kazee Smartboard",
+      "subtitle": "Contributed to the development and design architecture planning, as well as integration with a chatbot as the main feature of this application, which can analyze each widget's data."
+    },
+    "aisearch": {
+      "title": "AI Search",
+      "subtitle": "Contributed to the initial development, such as layouting and design architecture planning, as well as integration with AI to help users search based on meaning and context"
+    }
   },
   "smistory": {
-    "h1": "Building Digital Tools That Help People",
-    "paragraph1": "I participated in developing an online examination platform (LSP/ Lembaga Sertifikasi Profesi) for educational institutions that has been adopted by several schools. This system was designed to streamline the learning evaluation process with an intuitive interface for both teachers and students.",
-    "paragraph2": "Another contribution I made was in developing a system facilitating personal identity document creation. This application helps citizens in the process of creating various official documents such as family cards, identity cards, and other administrative documents with a simplified workflow, thus improving public service efficiency.",
-    "paragraph3": "I also took part in maintaining a cost control application that helps clients record and manage expenses. This system provides functionality for creating and managing Implementation Budget Plans (RAP) and Cost Budget Plans (RAB), enabling more accurate financial planning and transparency in project fund management."
+    "lsp": {
+      "title": "LSP - Professional Certification Institute Exam Web",
+      "subtitle": "Contributed to the creation of many exam forms and determination of the exam application flow."
+    },
+    "cc": {
+      "title": "Cost Control Application",
+      "subtitle": "Contributed to website maintenance, including bug fixing, dashboard feature optimization, and more."
+    },
+    "sipadatasih": {
+      "title": "Sipadatasih - Village Application for Submission Requests",
+      "subtitle": "Contributed to the feature for community submission requests for personal document creation."
+    }
+  },
+  "faq": {
+    "first": {
+      "question": "How did you start your career as a programmer?",
+      "answer": {
+        "paragraph1": "A brief story: at the end of my vocational school years, I was confused about my next journey. I decided to take a leap and meet someone I had never met or known personally, only recognized from Instagram—a CEO of a software agency just starting out, and we met at his coffee shop.",
+        "paragraph2": "We started by talking about backgrounds and sharing about this line of work. After many conversations, the result of that meeting was my first project: developing an exam application for LSP (Professional Certification Institute). The rest is my career journey up to now.",
+        "paragraph3": "Sometimes you need to dare to do something you fear, if you succeed, do it again."
+      }
+    },
+    "second": {
+      "question": "How to get a job as a programmer without an IT degree?",
+      "answer": {
+        "paragraph1": "There is no single best way, as it depends on each company. But what is certain is having a good portfolio. You don't need many—just 1-3, provided each application is properly built from frontend to backend. For example, the frontend should have an attractive UI, responsive design, and dark/light mode. The backend should implement authentication/authorization, RBAC (role-based access control), and so on. One more thing you can implement is design architecture, there are many, but the most common is MVC, and for frontend, it's recommended to try feature-based architecture."
+      }
+    },
+    "third": {
+      "question": "What kind of team do you prefer?",
+      "answer": {
+        "paragraph1": "I don't expect the most skilled members in every role, I just need and like teams that document their work or projects well and clearly. For example, backend developers who document APIs, frontend developers who apply clear design architecture, product designers who document component references, and QAs who document tasks well, such as having reproduce steps, expected results, and actual results."
+      }
+    }
   }
 }

@@ -2,12 +2,13 @@
 import { ref, onMounted, onUnmounted } from 'vue';
 import Tag from '@/components/reusable/Tag.vue'
 
-const props =   defineProps({
-  id: { type: String, required: true },
-  label: { type: String, required: true },
-  year: { type: String, required: false },
-  logo: { type: String, required: false },
-});
+const props = defineProps<{
+  id: string;
+  label: string;
+  position?: string;
+  year?: string;
+  logo?: string;
+}>();
 
 const isVisible = ref(false);
 const isSticky = ref(false);
@@ -50,12 +51,15 @@ onUnmounted(() => {
       <div :id="`nav${id}`" class="w-full flex items-center py-7"
         :class="[year ? 'justify-between' : 'justify-center']"
       >
-        <h1 class="text-xl text-white font-bold flex align-items-center">
-          <div class="flex items-center justify-center">
-            <img v-if="logo" width="36" height="36" :src="logo" alt="logo company" class="mr-4 rounded-md logo-neon"/>
+        <div class="flex items-center">
+          <div v-if="logo" class="flex-shrink-0 h-16 flex items-center justify-center">
+            <img :src="logo" alt="logo company" class="h-14 w-auto rounded-md logo-neon"/>
           </div>
-          {{ label }}
-        </h1>
+          <div class="ml-4 flex flex-col justify-center">
+            <h1 class="text-xl text-white font-bold">{{ label }}</h1>
+            <div>{{ position }}</div>
+          </div>
+        </div>
         <Tag v-if="year" :label="year" border-width="2px" class="bg-black border-gray-950"/>
       </div>
     </div>
@@ -69,12 +73,15 @@ onUnmounted(() => {
         <div class="w-full flex items-center py-7"
           :class="[year ? 'justify-between' : 'justify-center']"
         >
-          <h1 class="text-xl text-white font-bold flex align-items-center">
-            <div class="flex items-center justify-center">
-              <img v-if="logo" width="36" height="36" :src="logo" alt="logo company" class="mr-4 rounded-md logo-neon"/>
+          <div class="flex items-center">
+            <div v-if="logo" class="flex-shrink-0 h-16 flex items-center justify-center">
+              <img :src="logo" alt="logo company" class="h-14 w-auto rounded-md logo-neon"/>
             </div>
-            {{ label }}
-          </h1>
+            <div class="ml-4 flex flex-col justify-center">
+              <h1 class="text-xl text-white font-bold">{{ label }}</h1>
+              <div>{{ position }}</div>
+            </div>
+          </div>
           <Tag v-if="year" :label="year" border-width="2px" class="bg-black border-gray-950"/>
         </div>
       </div>

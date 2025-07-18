@@ -37,8 +37,8 @@ const props = withDefaults(
   border: v-bind('props.borderWidth') solid rgba(255, 255, 255, 0.08);
   background-color: #0d0d0d;
   border-radius: 28px;
-  height: 100%;
-  padding: 0.3rem 0.8rem;
+  height: 1.8rem;
+  padding: 0.3rem 0.7rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
