@@ -22,7 +22,6 @@ const navigationItems = computed<NavigationItem[]>(() => {
    { id: 1, label: t('navigator.about'), target: 'herolayout' },
    { id: 2, label: t('navigator.work'), target: 'kazeestory' },
    { id: 2, label: t('navigator.faq'), target: 'faq' },
-   { id: 3, label: t('navigator.more'), target: 'experience' }
  ];
 });
 

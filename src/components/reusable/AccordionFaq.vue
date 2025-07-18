@@ -38,9 +38,9 @@ const faqData = [
         :value="faq.id"
         class="faq-panel mb-2 rounded-lg overflow-hidden"
       >
-        <v-expansion-panel-title class="faq-title px-6 py-4 text-white font-medium text-base">
+        <v-expansion-panel-title class="px-6 py-4 text-white">
           <div class="flex items-center justify-between w-full">
-            <span class="flex-1 text-left">{{ t(faq.question) }}</span>
+            <span class="flex-1 text-left" style="line-height: 1.6;">{{ t(faq.question) }}</span>
           </div>
         </v-expansion-panel-title>
         
@@ -108,10 +108,6 @@ const faqData = [
   color: #d1d5db !important;
 }
 
-.faq-title {
-  transition: all 0.2s ease-in-out;
-}
-
 .faq-content {
   background: linear-gradient(145deg, #000000, #050505, #000000) !important;
 }
@@ -126,10 +122,6 @@ const faqData = [
   :deep(.v-expansion-panel-title) {
     min-height: 50px !important;
     padding: 12px 16px !important;
-  }
-  
-  .faq-title {
-    font-size: 14px !important;
   }
   
   .faq-content {

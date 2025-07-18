@@ -2,8 +2,7 @@
   "navigator": {
     "about": "About",
     "work": "Work",
-    "faq": "FAQ",
-    "more": "More"
+    "faq": "FAQ"
   },
   "hero": {
     "sayhi": "Helo! I'm ",
