@@ -67,7 +67,7 @@
     "third": {
       "question": "Tim seperti apa yang disukai?",
       "answer": {
-        "paragraph1": "Saya tidak mengharapkan anggota yang paling ahli di setiap peran, saya hanya butuh dan suka tim yang mendokumentasikan pekerjaan atau proyek mereka dengan baik dan jelas. Misalnya, backend developer yang mendokumentasikan API, frontend developer yang menerapkan arsitektur desain yang jelas, product designer yang mendokumentasikan referensi komponen, dan QA yang mendokumentasikan tugas dengan baik, seperti memiliki reproduce step, expected result, dan actual result."
+        "paragraph1": "Saya tidak mengharapkan anggota yang paling ahli di setiap peran, saya hanya butuh dan suka tim yang mendokumentasikan pekerjaan atau proyek mereka dengan baik dan jelas. Misalnya, backend developer yang mendokumentasikan API, frontend developer yang menerapkan design architecture yang jelas, product designer yang mendokumentasikan referensi komponen, dan QA yang mendokumentasikan tugas dengan baik, seperti memiliki reproduce step, expected result, dan actual result."
       }
     }
   }
