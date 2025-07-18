@@ -58,7 +58,6 @@ watch(() => t(props.title), () => {
         <h3
           ref="titleRef"
           class="font-bold text-white mb-2"
-          :class="!isSingleLine ? 'title-3lines' : ''"
           style="font-size: 1rem;"
         >
           {{ t(title) }}
@@ -88,15 +87,6 @@ watch(() => t(props.title), () => {
 </template>
 
 <style scoped>
-.title-3lines {
-  min-height: 3.75rem; /* 3 lines x 1.25rem line-height */
-  line-height: 1.25rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;

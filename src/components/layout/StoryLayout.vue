@@ -6,7 +6,7 @@ defineProps({
 });
 </script>
 <template>
-  <div class="w-full md:w-4/5 lg:w-3/4 xl:w-2/3 mx-auto bg-black text-white p-4 md:p-6 lg:p-8">
+  <div class="w-full md:w-4/5 lg:w-3/4 xl:w-2/3 mx-auto bg-black text-white p-4 md:p-6 lg:p-8 pt-0">
     <div class="w-[95%] sm:w-[70%] flex flex-column justify-start mx-auto mb-5">
       <div class="heading-container mb-4 md:mb-6">
         <h1 class="text-[24px]"><slot name="h1"></slot></h1>

@@ -28,11 +28,11 @@
     },
     "kazeesmartboard": {
       "title": "Kazee Smartboard",
-      "subtitle": "Contributed to the development and design architecture planning, as well as integration with a chatbot as the main feature of this application, which can analyze each widget's data."
+      "subtitle": "Contributed to design architecture planning and chatbot integration to analyze each widget's data."
     },
     "aisearch": {
       "title": "AI Search",
-      "subtitle": "Contributed to the initial development, such as layouting and design architecture planning, as well as integration with AI to help users search based on meaning and context"
+      "subtitle": "Contributed to design architecture planning and AI integration for semantic and contextual search."
     }
   },
   "smistory": {

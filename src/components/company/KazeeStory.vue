@@ -60,7 +60,7 @@ const data = reactive([
 <template>
   <div id="kazeestory">
     <NavbarLayout id="kazeestory" label="Kazee" year="2023 - Now" position="Frontend Developer" :logo="logo"/>
-    <div class="w-full md:w-[90%] lg:w-4/5 xl:w-3/4 mx-auto bg-black text-white p-4 md:p-6 lg:p-8">
+    <div class="w-full md:w-[90%] lg:w-4/5 xl:w-3/4 mx-auto bg-black text-white p-4 md:p-6 lg:p-8 pt-0">
       <div class="w-full flex flex-col md:flex-row md:flex-wrap gap-4 justify-center items-center mx-auto mb-5">
         <CardProject 
           v-for="(item, index) in data"
